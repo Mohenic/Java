@@ -4,6 +4,7 @@ package test1;
  * 이름 : 손영우
  * 내용 : Java 자료형 연습문제
  */
+
 public class Test01 {
 	public static void main(String[] args) {
 		
