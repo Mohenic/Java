@@ -23,7 +23,7 @@ public class DataTypeTest {
 		System.out.println("num2 : " + num2);
 		System.out.println("num3 : " + num3);
 		System.out.println("num4 : " + num4);
-		
+
 		// 실수형
 		float  var1 = 0.123456789f;
 		double var2 = 0.1234567890123456789;
