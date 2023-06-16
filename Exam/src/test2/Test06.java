@@ -35,7 +35,7 @@ public class Test06 {
 		
 		intro();
 		
-		int a = input(sc, "a");
+		int a = input(sc, "a"); // 문자열 " " , 문자형 ' '
 		int b = input(sc, "b");
 		
 		int output = add(a, b);

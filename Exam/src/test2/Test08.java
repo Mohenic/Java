@@ -12,6 +12,7 @@ public class Test08 {
 		System.out.println("5! = "+factorial(5));
 	}
 	
+// Recoursive (재귀함수) ; 무한루프
 	public static int factorial(int n) {
 		
 		if (n <= 1) {
@@ -21,3 +22,5 @@ public class Test08 {
 		return n * factorial(n-1);
 	}
 }
+
+
