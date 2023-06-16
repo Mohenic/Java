@@ -1,5 +1,9 @@
 package step3;
 
+// BufferedReader와 BufferedWriter 사용법 숙지 후 다시 도전
+ 
+
+
 import java.util.Scanner;
 
 public class Test06 {
