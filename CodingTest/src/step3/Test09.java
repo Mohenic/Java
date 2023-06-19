@@ -10,14 +10,16 @@ public class Test09 {
 		
 		int n = sc.nextInt();
 		
-		for(int i = 0 ; i < n ; i++) {
+		for(int i = 0; i<n ; i++) {
 			
-			for(int x = 1; x <= i ; x++) {
-				s
-				System.out.println("*");
+			for(int x = 0; x<=i ; x++) {
 				
+				System.out.print("*");
 				
 			}
+			
+			System.out.println();
 		}
 	}
+	
 }
