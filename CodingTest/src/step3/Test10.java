@@ -10,18 +10,21 @@ public class Test10 {
 		
 		int n = sc.nextInt();
 		
-		for(int i = 0 ; i<n ; i++) {
+		for(int i = 1 ; i<=n ; i++) {
 			
-			for(int x = 0 ; x<n ; x++) {
+			for(int x = 1 ; x<=n-i ; x++) {
 				
 				System.out.print(" ");
 				
 			}
 			
-			for() {
+			for(int x = 1; x<=i ; x++) {
 				
+				System.out.print("*");
 				
 			}
+			
+			System.out.println();
 			
 		}
 		

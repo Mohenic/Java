@@ -1,4 +1,4 @@
-package sub2;
+package sub3;
 
 public class Car {
 	
@@ -6,14 +6,22 @@ public class Car {
 	private String color;
 	private int speed;
 	
-	// 생성자 (클래스 이름과 똑같은 메서드) 캡슐화된 속성을 초기화하기 위한 메서드
+	//클래스 변수(정적변수)
+	public static int count;
+
+	
 	public Car(String name, String color, int speed) {
 		this.name = name;
 		this.color = color;
 		this.speed = speed;
+		count++;
 	}
 	
-	
+	// 클래스 메서드(정적 메서드)
+	public static int getCount() {
+		return count; // static 메서드는 static 변수만 참조
+	}
+
 	public void speedUp(int speed) {
 		this.speed += speed;
 	}
@@ -26,32 +34,6 @@ public class Car {
 		System.out.println("차랑명 : " + this.name);
 		System.out.println("차량색 : " + this.color);
 		System.out.println("현재속도 : " + this.speed);
-	}
-	
-	
-	// Getter, Setter 정의 - 필요에 따라서 정의
-	public String getName() {
-		return name;
-	}
-	
-	public void setName(String name) {
-		this.name = name;
-	}
-	
-	public String getColor() {
-		return color;
-	}
-	
-	public void setColor(String color) {
-		this.color = color;
-	}
-	
-	public int getSpeed() {
-		return speed;
-	}
-	
-	public void setSpeed(int speed) {
-		this.speed = speed;
 	}
 	
 }
