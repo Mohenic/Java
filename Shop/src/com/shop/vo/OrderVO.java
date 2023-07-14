@@ -1,5 +1,7 @@
 package com.shop.vo;
 
+import java.util.Set;
+
 public class OrderVO {
 	
 	private int orderNo;
@@ -7,6 +9,27 @@ public class OrderVO {
 	private int orderProduct;
 	private int orderCount;
 	private String orderDate;
+	
+	// 추가필드
+	private String name;
+	private String prodName;
+	
+	public String getName() {
+		return name;
+	}
+	
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	public String getProd() {
+		return prodName;
+	}
+	
+	public void setProd(String prod) {
+		this.prodName = prod;
+	}
+	
 	
 	public int getOrderNo() {
 		return orderNo;
@@ -46,6 +69,11 @@ public class OrderVO {
 	
 	public void setOrderDate(String orderDate) {
 		this.orderDate = orderDate;
+	}
+	
+	@Override
+	public String toString() {
+		return orderNo+","+orderId+","+orderProduct+","+orderCount;
 	}
 
 }

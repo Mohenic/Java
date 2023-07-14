@@ -48,4 +48,10 @@ public class ProductVO {
 		this.company = company;
 	}
 
+	@Override
+	public String toString() {
+		return prodNo+", "+prodName+","+stock+","+price+","+company;
+	}
+	
+	
 }

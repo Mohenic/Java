@@ -11,6 +11,15 @@ import java.util.List;
  *  날짜 : 2023/07/11
  *  이름 : 손영우
  *	내용 : PreparedSelect 실습하기
+ *
+ *	PreparedStatement
+ *	 - 기존 Statement 보다 향상된 동적 SQL 생성을 위한 Statement
+ *	 - Query Parameter에 값을 Mapping 시켜 쿼리 실행
+ *
+ *	VO(Value Object)객체
+ *	 - 도메인 값을 속성으로 갖는 객체
+ *	 - 테이블 개체(Entity)를 객체(Object)로 변환할 때 사용하는 객체
+ *	 - DTO와 구분
  */
 
 // VO객체 : 테이블 개체(Entity)가 변환되는 객체
